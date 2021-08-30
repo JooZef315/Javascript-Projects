@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Make a Card!</h1>
+      <hr />
+    </div>
+
+    <form>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" />
+        <span id="name_span">please enter the name correctly!!</span>
+        <span id="req_name">this field is required!!</span>
+      </div>
+      <div>
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="age" />
+        <span id="age_span">please enter the age (5-60)!!</span>
+        <span id="req_age">this field is required!!</span>
+      </div>
+      <div>
+        <label for="email">E-mail: </label>
+        <input type="text" name="email" id="email" />
+        <span id="email_span">please enter the email correctly!!</span>
+        <span id="req_email">this field is required!!</span>
+      </div>
+      <div class="btns">
+        <input type="submit" value="submit" id="submit" />
+        <input type="reset" value="reset" id="reset" />
+      </div>
+    </form>
+
+    <div class="cards"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

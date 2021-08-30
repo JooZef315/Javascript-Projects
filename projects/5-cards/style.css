@@ -1,0 +1,151 @@
+body {
+  background-color: #ffd371;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: 10px;
+  padding: 1rem;
+}
+
+.header {
+  width: 75%;
+  margin: auto;
+  padding: 1rem;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+form .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset,
+#submit {
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: large;
+  border-radius: 12px;
+  border: none;
+  color: #df2e2e;
+  background-color: white;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#reset:hover,
+#submit:hover {
+  background-color: darkslategrey;
+  color: cornsilk;
+}
+
+span {
+  color: red;
+  display: none;
+}
+
+#email,
+#age,
+#name {
+  border: none;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  height: 28px;
+  width: 250px;
+  margin: auto 2rem;
+}
+
+#email:focus,
+#age:focus,
+#name:focus {
+  outline: none;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+}
+
+div button {
+  color: white;
+  align-self: flex-end;
+  background-color: #ff4848;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-right: -15px;
+  cursor: pointer;
+  text-align: center;
+}
+div button:hover {
+  color: #ff4848;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff4848;
+  width: 23%;
+  margin: 20px;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.card div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -30px;
+}
+
+.card h1 {
+  background-color: white;
+  color: #ff4848;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card h3 {
+  margin-top: -10px;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    width: 65%;
+  }
+}
