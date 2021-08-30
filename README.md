@@ -8,3 +8,5 @@
 - calc:  realy just a calculator using Vanilla Javescript!
 - slider: another photos slider, but this time with slideshow option
 - names API: calling jsonplaceholder Api using fetch, and display some names with their posts using grid 
+
+## Live Demo: [Projects live](https://joozef315.github.io/Javascript-Projects/)
